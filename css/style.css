@@ -381,6 +381,47 @@ p1 {
   }
  }   
 
+
+@media screen and (max-width:768px){
+  .foott{
+    display: flex;
+    flex-direction: row;
+  }
+  .logopg{
+    width: 0%;
+  }
+   .butnav{
+    width: 0%;
+   }
+  h1,.h1{
+    
+    font-size:48px;
+  }
+  h2{
+    font-size: 22px;
+   }
+  p{
+    
+    font-size: 14px;
+  }
+  .b1{
+  
+    font-size: 12px;
+    width: 30%;
+  }
+  .btn-sp{
+    width: 50%;
+    font-size: 12px;
+  }
+  .sect-6{
+    display: flex;
+    justify-content: center;
+  }
+  .btn-primary{
+    width: 30%;
+  }
+}  
+
 @media screen and (max-width:767px){
   .foott{
     display: flex;
@@ -421,47 +462,6 @@ p1 {
   }
 }  
 
-@media screen and (max-width:768px){
-  .foott{
-    display: flex;
-    flex-direction: row;
-  }
-  .logopg{
-    width: 0%;
-  }
-   .butnav{
-    width: 153%;
-   }
-  h1,.h1{
-    
-    font-size:48px;
-  }
-  h2{
-    font-size: 22px;
-   }
-  p{
-    
-    font-size: 14px;
-  }
-  .b1{
-  
-    font-size: 12px;
-    width: 30%;
-  }
-  .btn-sp{
-    width: 50%;
-    font-size: 12px;
-  }
-  .sect-6{
-    display: flex;
-    justify-content: center;
-  }
-  .btn-primary{
-    width: 30%;
-  }
-}  
-
-
 
 @media screen and (max-width:426px){
   .foott{
@@ -472,7 +472,6 @@ p1 {
     width: 0;
   }
   .butnav{
-    font-size: 8px;
     width: 0;
    }
   .b1{
