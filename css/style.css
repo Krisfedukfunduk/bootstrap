@@ -379,48 +379,22 @@ p1 {
     font-size: 18px;
     padding-bottom: 2%;
   }
- }   
-
-
-@media screen and (max-width:769px){
-  .foott{
-    display: flex;
-    flex-direction: row;
+  .btn-primary{
+    width: 50%;
   }
-  .logopg{
-    width: 0%;
-  }
-   .butnav{
-    width: 0%;
-   }
-  h1,.h1{
-    
-    font-size:48px;
-  }
-  h2{
-    font-size: 22px;
-   }
-  p{
-    
-    font-size: 14px;
+  .btn-sp{
+    width: 50%;
+    font-size: 12px;
   }
   .b1{
   
     font-size: 12px;
     width: 30%;
   }
-  .btn-sp{
-    width: 50%;
-    font-size: 12px;
-  }
-  .sect-6{
-    display: flex;
-    justify-content: center;
-  }
-  .btn-primary{
-    width: 30%;
-  }
-}  
+  .butnav{
+    width: 153%;
+   }
+ }   
 
 @media screen and (max-width:768px){
   .foott{
@@ -431,26 +405,27 @@ p1 {
     width: 0%;
   }
    .butnav{
-    width: 0%;
+    width: 0;
    }
   h1,.h1{
     
-    font-size:48px;
+    font-size:46px;
   }
   h2{
-    font-size: 22px;
+    font-size: 20px;
    }
   p{
     
-    font-size: 14px;
+    font-size: 10px;
   }
   .b1{
   
     font-size: 12px;
-    width: 100%;
+    width: 30%;
+    border: 1px solid #1B3764;
   }
   .btn-sp{
-    width: 100%;
+    width: 50%;
     font-size: 12px;
   }
   .sect-6{
@@ -460,8 +435,10 @@ p1 {
   .btn-primary{
     width: 100%;
   }
+
 }  
 
+ 
 
 @media screen and (max-width:426px){
   .foott{
@@ -472,6 +449,7 @@ p1 {
     width: 0;
   }
   .butnav{
+    font-size: 8px;
     width: 0;
    }
   .b1{
@@ -508,6 +486,7 @@ p1 {
     width: 100%;
   }
 }  
+ 
 
 .navbar{
     --bs-nav-link-padding-x: 0;
