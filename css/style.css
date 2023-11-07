@@ -382,7 +382,7 @@ p1 {
  }   
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:769px){
   .foott{
     display: flex;
     flex-direction: row;
@@ -422,7 +422,7 @@ p1 {
   }
 }  
 
-@media screen and (max-width:767px){
+@media screen and (max-width:768px){
   .foott{
     display: flex;
     flex-direction: row;
