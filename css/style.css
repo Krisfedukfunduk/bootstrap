@@ -367,6 +367,9 @@ p1 {
   font-size: 22px;
   padding-bottom: 2%;
 }
+  .logopg{
+  width: 10% !important;
+}
 }   
 @media screen and (max-width:1025px){
   h1{
