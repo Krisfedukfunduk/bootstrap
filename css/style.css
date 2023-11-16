@@ -485,6 +485,9 @@ p1 {
   .btn-primary{
     width: 100%;
   }
+  .container-fluid img{
+    width: 50%;
+  }
 }  
  
 
