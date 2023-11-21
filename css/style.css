@@ -370,6 +370,8 @@ p1 {
   .logopg{
   width: 10% !important;
 }
+.butnav{
+  width:120%;
 }   
 @media screen and (max-width:1025px){
   h1{
